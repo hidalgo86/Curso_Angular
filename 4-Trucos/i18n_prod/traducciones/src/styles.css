@@ -1,0 +1,14 @@
+body {
+  background: yellowgreen;
+}
+
+article {
+  border: solid 1px;
+  padding: 20px;
+  font-family: monospace;
+  width: 28%;
+  margin: 49px auto;
+  font-size: 23px;
+  border-radius: 11px;
+  background: #fff;
+}

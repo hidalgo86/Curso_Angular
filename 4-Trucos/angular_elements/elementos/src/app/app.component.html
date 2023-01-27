@@ -1,0 +1,11 @@
+<div>
+  <input
+    type="range"
+    min="1"
+    max="360"
+    value="0"
+    #miSlider
+    (input)="onChange(miSlider.value)"
+  />
+  <div id="square" [ngStyle]="{ transform: miRotacion }"></div>
+</div>
